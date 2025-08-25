@@ -1,19 +1,40 @@
 <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
+  <div class="container header-container">
+    <a class="header-logo-link">
+      <img
+        class="header-logo-img"
+        src="./image/logo.svg"
+        alt="logo"
+        width="40"
+        height="36"
+      />
+      <p class="header-logo-text">Product</p>
+    </a>
+    <nav class="header-nav">
+      <li class="header-nav-item">
+        <a class="header-nav-item-link active" href="">Product</a>
+      </li>
+      <li class="header-nav-item">
+        <a class="header-nav-item-link" href="">Pricing</a>
+      </li>
+      <li class="header-nav-item">
+        <a class="header-nav-item-link" href="">Customers</a>
+      </li>
+      <li class="header-nav-item">
+        <a class="header-nav-item-link" href="">Resources</a>
+      </li>
     </nav>
+    <ul class="header-btn-list">
+      <li class="header-btn-list-item">
+        <button class="header-btn-list-item-btn-in" type="button">
+          Sign In
+        </button>
+      </li>
+      <li class="header-btn-list-item">
+        <button class="header-btn-list-item-btn-up" type="button">
+          Sign Up
+        </button>
+      </li>
+    </ul>
   </div>
 </header>
