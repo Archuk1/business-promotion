@@ -1,0 +1,23 @@
+.company {
+  padding-top: 100px;
+  padding-bottom: 117px;
+}
+.company-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.company-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #22343d;
+  margin-bottom: 50px;
+}
+.company-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+}
