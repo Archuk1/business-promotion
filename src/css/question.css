@@ -1,0 +1,79 @@
+.question {
+}
+.question-container {
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.question-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  margin-bottom: 8px;
+}
+.question-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #22343d;
+  margin-bottom: 50px;
+}
+.question-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  width: 815px;
+}
+.question-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.question-list-item::after {
+  content: '';
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  border: 1px solid #e7e7e7;
+  width: 920px;
+  height: 0px;
+  margin-top: 22px;
+}
+
+.question-list-item-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #22343d;
+  display: flex;
+}
+
+.question-list-item-title::before {
+  content: '';
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  background-image: url(../image/question/plus.svg);
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+
+.question-list-item:nth-child(2) .question-list-item-title::before {
+  background-image: url(../image/question/minus.svg);
+  margin-bottom: 14px;
+}
+
+.question-list-item-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #22343d;
+}
